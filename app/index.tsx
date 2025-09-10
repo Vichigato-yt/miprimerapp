@@ -1,6 +1,6 @@
-import { Image, StyleSheet, View, Text } from 'react-native'
-import React from 'react'
 import WelcomeText from '@/components/WelcomeText'
+import React from 'react'
+import { Image, StyleSheet, View } from 'react-native'
 
 const styles = StyleSheet.create({
   container: {
@@ -10,8 +10,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   image:{
-    width: 250,
-    height: 250,
+    width: 150,
+    height: 150,
   }
 })
 
@@ -20,6 +20,8 @@ const index = () => {
     <View style={styles.container}>
       <Image source={require('@/assets/images/Team_Fortress_2_style_logo.svg.png')} style={styles.image}></Image>
       <WelcomeText></WelcomeText>
+      <Image source={require('@/assets/images/tumblr_95b57103e517deb605fc49fe62cd39d7_2a3fa862_640.png')} style={styles.image}></Image>
+      
     </View>
   )
 }

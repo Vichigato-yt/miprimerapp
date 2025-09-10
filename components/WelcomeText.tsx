@@ -14,7 +14,6 @@ const styles = StyleSheet.create({
     fontSize: 30,
     color: '#F2A950',
   }
-  
 })
 
 const WelcomeText = () => {
